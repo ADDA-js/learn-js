@@ -16,11 +16,11 @@
 2. Why JS? Why Now?
 
 ### Syllabus
-	- expectations
-	- long term goals
-	- on github
-	- contacting me
-	- contacting each other
+- expectations
+- long term goals
+- on github
+- contacting me
+- contacting each other
 
 ### Diving In
 Ask what is JS?
@@ -32,27 +32,27 @@ Ask where is JS?
 ## MiniLesson 2 - Javascript Data, Comparisons, Conditionals
 
 ### Variables and Datatypes
-	- Numbers, you know, 2, -5, 0.5, 54789
-	- Strings, Text! Always in quotes, single or double
-	- Boolean, True or False
-	- Arrays, Basically, a list. One direction exercises
-	- JS, null, undefined, NaN
+- Numbers, you know, 2, -5, 0.5, 54789
+- Strings, Text! Always in quotes, single or double
+- Boolean, True or False
+- Arrays, Basically, a list. One direction exercises
+- JS, null, undefined, NaN
 
 #### Model, 15 minutes 
-	- go over taking in user input
-	- variables contain data (like my name is 'Pavan')
-	- variables can be initialized, then set
-	- if the variable is initialized, it's value is undefined
-	- you can do variable == undefined and it would be true
-	- undefined is a variable that's available in javascript on default (easy explaination)
-	- undefined is a variable that's available in global scope on default
-	- variables can be initialized and set in one go
-	- go over the different datatypes being used
-	- go over conditional logic 
-	- go over writing to the page
+- go over taking in user input
+- variables contain data (like my name is 'Pavan')
+- variables can be initialized, then set
+- if the variable is initialized, it's value is undefined
+- you can do variable == undefined and it would be true
+- undefined is a variable that's available in javascript on default (easy explaination)
+- undefined is a variable that's available in global scope on default
+- variables can be initialized and set in one go
+- go over the different datatypes being used
+- go over conditional logic 
+- go over writing to the page
 
-	Example:
-	```
+Example:
+```
 	var userName = prompt("What's your name?");
 			var confirm = confirm('Do you like cats?');
 
@@ -93,7 +93,7 @@ Ask where is JS?
 			alert(catAge + 2); //won't work as expected
 
 			alert(parseInt(catAge) + 2); //works as expected
-	```
+```
 
 ### Comparisons && Conditionals
 Comparions compare two things, give you an answer as a boolean value.
