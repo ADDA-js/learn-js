@@ -1,19 +1,19 @@
 # Week 1 Instructor Notes
 
 ## Learning Targets
-	- I can explain when and why javascript is used.
-	- I can use the terminal to navigate, create files and folders.
-	- I can use javascript to store and compare data from a user.
+- I can explain when and why javascript is used.
+- I can use the terminal to navigate, create files and folders.
+- I can use javascript to store and compare data from a user.
 
 ## Do Now
-	- Open Slack (Browser or App!)
-	- In our class channel "js_driggers" slack your response to this question. What do you hope to accomplish in this class? Tag
+- Open Slack (Browser or App!)
+- In our class channel "js_driggers" slack your response to this question. What do you hope to accomplish in this class? Tag
 
 ## Introductions/Housekeeping
 
 ### Circle up! 2 whip arounds.
-	1. Name, Class, Major, Hometown, a movie you've seen 5+ times. 
-	2. Why JS? Why Now?
+1. Name, Class, Major, Hometown, a movie you've seen 5+ times. 
+2. Why JS? Why Now?
 
 ### Syllabus
 	- expectations
@@ -25,7 +25,7 @@
 ### Diving In
 Ask what is JS?
 Ask where is JS?
--gif on js from "Does Not Compute"
+- gif on js from "Does Not Compute"
 
 ## MiniLesson 1 - Using Terminal
 
