@@ -23,9 +23,18 @@
 - contacting each other
 
 ### Diving In
-Ask what is JS?
-Ask where is JS?
-- gif on js from "Does Not Compute"
+####Ask what is JS?
+- Javascript is not Java.
+- Javascript is a programming language.
+- Javascript is dynamic, change change at runtime.
+- Javascript is untyped.
+
+####Ask where is JS?
+Javascript is nearly a universal language. It runs all sorts of devices and systems. Javascipt is in the browswer (client) and the server (node)
+
+####Ask why JS?
+- JS is the standard for all web interactions.
+- JS is can be used as a full stack, meaning we can write js for both the client and the server. This is awesome!
 
 ## MiniLesson 1 - Using Terminal
 
@@ -42,7 +51,7 @@ Ask where is JS?
 - go over taking in user input
 - variables contain data (like my name is 'Pavan')
 - variables can be initialized, then set
-- if the variable is initialized, it's value is undefined
+- if the variable is initialized, it's value is undefined, this is not good practice.
 - you can do variable == undefined and it would be true
 - undefined is a variable that's available in javascript on default (easy explaination)
 - undefined is a variable that's available in global scope on default
@@ -51,7 +60,7 @@ Ask where is JS?
 - go over conditional logic 
 - go over writing to the page
 
-Example:
+Example
 ```
 	var userName = prompt("What's your name?");
 			var confirm = confirm('Do you like cats?');
@@ -95,10 +104,12 @@ Example:
 			alert(parseInt(catAge) + 2); //works as expected
 ```
 
-### Comparisons && Conditionals
-Comparions compare two things, give you an answer as a boolean value.
+If they younger than 18, alert them they can't vote.
 
-	```
+### Comparisons && Conditionals
+Comparisons compare two things, give you an answer as a boolean value.
+	
+```
 		// discover exercise regarding strings, numbers and booleans, conditional logic
 
 		if (true == true){
@@ -148,7 +159,11 @@ Comparions compare two things, give you an answer as a boolean value.
 		}else{
 			alert('branson')
 		}
-	```
+```
+
+#### Independent Practice #1 - 20 minutes
+Write polling program. Ask for the user name, then ask for the voters age. If the user  is 18 or older, ask them who they will vote for from a list of options. Write to the screen their name, their age, and the candidate they chose.
+
 
 
 ## Homework
