@@ -1,6 +1,6 @@
 # Week 1 Instructor Notes
 
-## Learning Targets
+## Objectives
 - I can explain when and why javascript is used.
 - I can use the terminal to navigate, create files and folders.
 - I can use javascript to store and compare data from a user.
