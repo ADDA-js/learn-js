@@ -7,13 +7,9 @@
 
 ## Do Now
 - Open Slack (Browser or App!)
-- In our class channel "js_driggers" slack your response to this question. What do you hope to accomplish in this class? Tag
+- In our class channel "js_driggers" slack your response to this question. What do you hope to accomplish in this class? 
 
 ## Introductions/Housekeeping
-
-### Circle up! 2 whip arounds.
-1. Name, Class, Major, Hometown, a movie you've seen 5+ times. 
-2. Why JS? Why Now?
 
 ### Syllabus
 - expectations
@@ -21,6 +17,10 @@
 - on github
 - contacting me
 - contacting each other
+
+### Circle up! 2 whip arounds.
+1. Name, Class, Major, Hometown, a movie you've seen 5+ times. 
+2. Why JS? Why Now?
 
 ### Diving In
 #### Ask what is JS?
@@ -39,7 +39,7 @@ Javascript is nearly a universal language. It runs all sorts of devices and syst
 ## MiniLesson 1 - Using Terminal
 Get Terminal fired up!
 ### Git and Github
-1. type `git --version', if github isn't installed it will prompt you to install. Do it!
+1. type `git --version`, if github isn't installed it will prompt you to install. Do it!
 2. Go to https://github.com/awdriggs-js/Spring_2016
 3. Find the "Fork" button. Click it!
 4. Copy the HTTPS clone url.
@@ -49,14 +49,14 @@ Get Terminal fired up!
 We are going to be using the terminal a lot. At first it might seem cumbersome, but there is a purpose. First, it is way faster to navigate, create folders, and create files in the terminal. Second, we are going to be using terminal to commit our work to github. Lastly, being able to use the terminal is really helpful when you start deploying apps to a server. It's better to start now.
 
 #### Navigation
-`cd folderName'
+`cd folderName`
 - let's you change directories (that's what it stands for)
 - it's like you're clicking into that folder
 
-'cd ..'
+`cd ..`
 - let's you go to the previous directory
 
-Try it, navigate into week0, the type 'cat README.md' Hint: tab key will autocomplete, keep hitting type until you get what you want.
+Try it, navigate into week0, the type `cat README.md` Hint: tab key will autocomplete, keep hitting type until you get what you want.
 
 
 #### Creating a folder
@@ -68,35 +68,33 @@ This is where you should do your work. *DO NOT* work in work in the other folder
 #### Creating Files
 
 #### Cheatsheet of Common Commands
-'pwd'
+`pwd`
 -print working directory, shows you where you are now
 
-'open .'
+`open .`
 -opens the current folder in finder
 
 `ls`
 - lists the files in a folder
 
-`cd folderName'
+`cd folderName`
 - let's you change directories (that's what it stands for)
-- it's like you're clicking into that folder
+- it's like you`re clicking into that folder
 
-'cd ..'
+`cd ..`
 - let's you go to the previous directory
 
-'touch filename'
+`touch filename`
 - make a file where you are in the terminal
 
-'rm filename'
+`rm filename`
 - will delete a file permanently - won't be included in your trash
 
-'mkdir foldername'
+`mkdir foldername`
 - make a folder where you are in the terminal
 
-'rm -rf foldername'
+`rm -rf foldername`
 - will delete a folder permanently - won't be included in your trash
-
-
 
 ## MiniLesson 2 - Javascript Data, Comparisons, Conditionals
 
@@ -109,7 +107,7 @@ This is where you should do your work. *DO NOT* work in work in the other folder
 
 #### Model, 15 minutes 
 - go over taking in user input
-- variables contain data (like my name is 'Pavan')
+- variables contain data (like my name is 'Adam')
 - variables can be initialized, then set
 - if the variable is initialized, it's value is undefined, this is not good practice.
 - you can do variable == undefined and it would be true
@@ -123,45 +121,46 @@ This is where you should do your work. *DO NOT* work in work in the other folder
 Example
 ```
 	var userName = prompt("What's your name?");
-			var confirm = confirm('Do you like cats?');
+	
+	var confirm = confirm('Do you like cats?');
 
-			var petName = 'Meeses';
-			var petType = 'tuxedo cat';
-			var petAge = 5;
-			var petIsCat = true;
+	var petName = 'Jelly Cat';
+	var petType = 'Tabby cat';
+	var petAge = 1;
+	var petIsCat = true;
 
-			if (confirm){
-				alert(petName + petType + petAge)
-			}else{
-				alert("You don't get my cat's information")
-			}
+	if (confirm){
+		alert(petName + petType + petAge)
+	}else{
+		alert("You don't get my cat's information")
+	}
 
-			if (petIsCat == true){
-				alert('my pet is a cat')
-			}else{
-				alert('my pet is not a cat')
-			}
+	if (petIsCat == true){
+		alert('my pet is a cat')
+	}else{
+		alert('my pet is not a cat')
+	}
 
-			if (petAge !== 7){
-				alert('My pet is not 7 years old')
-			}
+	if (petAge !== 7){
+		alert('My pet is not 7 years old')
+	}
 
-			if (petAge == 5){
-				alert('My pet is 5 years old')
-			}elseif(petAge < 5){
-				alert('My pet is less than 5 years old')
-			}elseif(petAge > 5){
-				alert('My pet is older than 5 years old')
-			}
+	if (petAge == 5){
+		alert('My pet is 5 years old')
+	}elseif(petAge < 5){
+		alert('My pet is less than 5 years old')
+	}elseif(petAge > 5){
+		alert('My pet is older than 5 years old')
+	}
 
-			//this replaces the entire page with this - so it's not something you'll normally use - but it's what we'll use for now to be able to print stuff to the page
-			document.write('Welcome to our page ' + userName);
+	//this replaces the entire page with this - so it's not something you'll normally use - but it's what we'll use for now to be able to print stuff to the page
+	document.write('Welcome to our page ' + userName);
 
-			var catAge = prompt('how old is your cat?');
+	var catAge = prompt('how old is your cat?');
 
-			alert(catAge + 2); //won't work as expected
+	alert(catAge + 2); //won't work as expected
 
-			alert(parseInt(catAge) + 2); //works as expected
+	alert(parseInt(catAge) + 2); //works as expected
 ```
 
 #### EX1 - 20 minutes
@@ -169,8 +168,8 @@ Write polling program. Ask for the user name, then ask for the voters age. If th
 
 If they younger than 18, alert them they can't vote.
 
-**Bonus**
-First ask the user if they are registered to vote. If yes continue with the first part. If no, redirect the user to the website to register in New York.
+**Challenge**
+Ask the user if they are registered to vote. If yes continue with the first part. If no, redirect the user to the website to register in New York.
 
 ### EX2 - 5 minutes
 Comparisons compare two things, give you an answer as a boolean value. Let's dig into some examples
@@ -229,6 +228,7 @@ Comparisons compare two things, give you an answer as a boolean value. Let's dig
 		alert('branson')
 	}*/
 ```
+
 ## Mini-Lesson 3, loops
 While loops will continue to happen as long a condition is true.
 ```
@@ -249,7 +249,7 @@ document.write(userName + " can you look at your phone - and stop paying attenti
 EX3
 You have just invested in ADDA, a sweet digital design agency.
 The stock price starts at 10 dollars.
-While the stock price is greater than or equal to 10, confirm the new stock price. If the stock price falls below 10 dollars, alert the user that they shoudl sell! Stop asking what the price is.
+While the stock price is greater than or equal to 10, confirm the new stock price. If the stock price falls below 10 dollars, alert the user that they should sell! Stop asking what the price is.
 
 ```
 var stockPrice = 10; //assume dollars
@@ -278,7 +278,11 @@ while (stockPrice >= 10){
 6. Check out your github page, all work you did in class should now be online.
 
 ## Homework
-Rock Paper Scissors, link to the github repo. Show how to use git classroom.
+[Rock Paper Scissors](https://classroom.github.com/assignment-invitations/06d3a64287f5295a2153716387545ae0), accept the invitation. 
+- In terminal, do 'git clone <yourHWRepo>'
+- Do your work in this repo.
+- Use the psuedo code to get started if you are stuck.
+- Commit and push often, push your final project by Tuesday night.
 
 
 
