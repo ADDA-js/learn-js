@@ -256,7 +256,7 @@ var stockPrice = 10; //assume dollars
 
 while (stockPrice >= 10){
 
-	stockPrice = confirm("What's YGE's stock price now?"); //won't work - why? Spend 2 minutes discussing this with your partner
+	stockPrice = confirm("What's ADDA's stock price now?"); //won't work - why? Spend 2 minutes discussing this with your partner
 
 	if (stockPrice < 10){
 		alert('Sell!!!');
@@ -278,7 +278,7 @@ while (stockPrice >= 10){
 6. Check out your github page, all work you did in class should now be online.
 
 ## Homework
-[Rock Paper Scissors](https://classroom.github.com/assignment-invitations/06d3a64287f5295a2153716387545ae0), accept the invitation. 
+[Rock Paper Scissors](https://classroom.github.com/assignment-invitations/497a0a18d496324b317b9895472b9c62), accept the invitation. 
 - In terminal, do 'git clone <yourHWRepo>'
 - Do your work in this repo.
 - Use the psuedo code to get started if you are stuck.
