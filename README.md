@@ -10,7 +10,7 @@ Javascript @ Barnard 2016
 - Introduction to JS
 - HW: Rock Paper Scissors
 
-**Week 2**
+**[Week 2](https://github.com/awdriggs-js/Spring_2016/tree/master/week2)**
 - Array Functions
 - String Functions
 - Writing your own functions
