@@ -164,110 +164,12 @@ Example
 ```
 
 #### EX1 - 20 minutes
-Write polling program. Ask for the user name, then ask for the voters age. If the user  is 18 or older, ask them who they will vote for from a list of options. Write to the screen their name, their age, and the candidate they chose.
+Write polling program. Ask for the user name, then ask for the voters age. If the user is 18 or older, ask them who they will vote for from a list of options. Write to the screen their name, their age, and the candidate they chose.
 
 If they younger than 18, alert them they can't vote.
 
 **Challenge**
 Ask the user if they are registered to vote. If yes continue with the first part. If no, redirect the user to the website to register in New York.
-
-### EX2 - 5 minutes
-Comparisons compare two things, give you an answer as a boolean value. Let's dig into some examples
-	
-```
-	// discover exercise regarding strings, numbers and booleans, conditional logic
-
-
-	/*
-	if (true == true){
-		alert('hi')
-	}else{
-		alert('bye')
-	}*/
-
-	/*
-	if (false == false){
-		alert('dude')
-	}else{
-		alert('nope')
-	}*/
-
-	/*if ("4" == 4){
-		alert('barnard')
-	}else{
-		alert('marford - I made this up')
-	}*/
-
-	/*if ("4" === 4){
-		alert('barnard')
-	}else{
-		alert('marford - I made this up')
-	}*/
-
-	/*if (true){
-		alert('goo goo dolls')
-	}else{
-		alert('vanilla ice')
-	}*/
-
-	/*if (false){
-		alert('the neighborhood')
-	}else{
-		alert('one direction')
-	}*/
-
-	/*if (("5" + "5") == "55"){
-		alert('tofu')
-	}else{
-		alert('soybean')
-	}*/
-
-	/*if ((6 + "5") == "65"){
-		alert('richard')
-	}else{
-		alert('branson')
-	}*/
-```
-
-## Mini-Lesson 3, loops
-While loops will continue to happen as long a condition is true.
-```
-var userName = prompt('What\'s your name?');
-
-var payingAttention = true;
-
-while(payingAttention){
-          
-		  document.write("On " + Date() + " " + userName + " was paying attention <br>");
-          payingAttention = confirm('Are you paying attention '+ userName +'?');
-          console.log(payingAttention);
-}
-document.write(userName + " can you look at your phone - and stop paying attention - " + "At " + Date() + " " + userName + " is now not paying attention!");
-
-```
-
-EX3
-You have just invested in ADDA, a sweet digital design agency.
-The stock price starts at 10 dollars.
-While the stock price is greater than or equal to 10, confirm the new stock price. If the stock price falls below 10 dollars, alert the user that they should sell! Stop asking what the price is.
-
-```
-var stockPrice = 10; //assume dollars
-
-while (stockPrice >= 10){
-
-	stockPrice = confirm("What's ADDA's stock price now?"); //won't work - why? Spend 2 minutes discussing this with your partner
-
-	if (stockPrice < 10){
-		alert('Sell!!!');
-	}
-}
-
-//Answer:
-//wrap confirm in parseInt
-
-//on a side note: isNaN(""); //checks if a value is a number or not - why not isNumber?... JavaScript
-```
 
 ## Lets Push!
 1. Save all your work.
@@ -278,14 +180,9 @@ while (stockPrice >= 10){
 6. Check out your github page, all work you did in class should now be online.
 
 ## Homework
-[Rock Paper Scissors](https://classroom.github.com/assignment-invitations/497a0a18d496324b317b9895472b9c62), accept the invitation. 
+[A Simple Calculator](https://classroom.github.com/assignment-invitations/903e33134291838a197b7406163870d5), accept the invitation. 
 - In terminal, do 'git clone <yourHWRepo>'
 - Do your work in this repo.
 - Use the psuedo code to get started if you are stuck.
 - Commit and push often, push your final project by Tuesday night.
-
-
-
-
-
 
