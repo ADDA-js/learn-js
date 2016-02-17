@@ -24,7 +24,7 @@ if(cash = 0){
 ## Stand-up
 - Successes?
 - Struggles?
-- Next Steps?
+- Show and Tell.
 
 ## Git! 
 ### Big Push
@@ -204,8 +204,6 @@ var telephone = function() {
 var blondie = function(func) {
 	var number = func();
 	console.log("call me on the line at "+ number);
-	
-	
 }
 
 blondie(telephone);
