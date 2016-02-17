@@ -8,13 +8,13 @@ Javascript @ Barnard 2016
 **[Week 1](https://github.com/awdriggs-js/Spring_2016/tree/master/week1)**
 - Using the Terminal
 - Introduction to JS
-- HW: Rock Paper Scissors
+- HW: Simple Calculator
 
 **[Week 2](https://github.com/awdriggs-js/Spring_2016/tree/master/week2)**
 - Array Functions
-- String Functions
-- Writing your own functions
-- HW: Functions, Functions, Functions
+- While Loops
+- More Git
+- HW: Rock Paper Scissors
 
 **Week 3**
 - Using Objects
