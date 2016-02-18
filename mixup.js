@@ -1,3 +1,20 @@
+Array.prototype.shuffle = function() {
+    var input = this;
+     
+    for (var i = input.length-1; i >=0; i--) {
+     
+        var randomIndex = Math.floor(Math.random()*(i+1)); 
+        var itemAtIndex = input[randomIndex]; 
+         
+        input[randomIndex] = input[i]; 
+        input[i] = itemAtIndex;
+    }
+    return input;
+}
+
+var groups = [];
+var numGroups = 4;
+
 var students = [
 'Eleanor Murguia', 
 'Molly Mittler', 
@@ -13,23 +30,12 @@ var students = [
 'Claudia Focacci Polgar', 
 ]
 
-var grpSize = 3;
-var mixup = function(grpSize, list){
-	var studentArray = list;
-	var groups = [];
-	var index = 0;
+var shuffled = students.shuffle();
 
-	while(studentArray.length > 0){
-		var index;
-		var rand = Math.floor(Math.random(0, studentArray.length));
-		for(var i = 0; i < grpSize; i++){
-			groups[index] += studentArray.splice(rand, 1) + ', ';
-		}
-
-	}
-
-	return groups;	
+for(var i = 0; i < numGroups; i++){
+	groups[i] = shuffled.splice(0, 3)
 }
+// console.log(shuffled);
+console.log(groups);
 
-document.writes(mixup(3, students));
 
