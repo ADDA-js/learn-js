@@ -11,15 +11,16 @@ Javascript @ Barnard 2016
 - HW: Simple Calculator
 
 **[Week 2](https://github.com/awdriggs-js/Spring_2016/tree/master/week2)**
-- Array Functions
 - While Loops
 - More Git
 - HW: Rock Paper Scissors
 
-**Week 3**
+**[Week 3](https://github.com/awdriggs-js/Spring_2016/tree/master/week3)**
+- Array Functions
+- For loops
 - Using Objects
 - Prototyping
-- HW: Hangman
+- HW: [Hangman](https://classroom.github.com/assignment-invitations/41cb3d432536a53850d98004b3395bf7)
 
 **Week 4**
 - Refresh on HTML/CSS ids and classes
