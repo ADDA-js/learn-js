@@ -1,0 +1,2 @@
+animals = ['parrot', 'bear', 'tiger'];
+
