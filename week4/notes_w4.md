@@ -61,7 +61,7 @@ Objects can also have functions that are given to them.
 - Test out your object in the console, make sure that it is working as expected.
 - Bonus, create a function that loops through the characters, printing a message 'i.e. Keaunu Reeves Rocks! Patrick Swayze Rocks'
 
-## Mini-Lesson 2, Objects Part 2
+## Mini-Lesson 1.2, Objects Part 2
 - Both examples have just created just one object
 - Object become more powerful when we create object types, then we can use this over and over again.
 - Lets create a Car object type that we can use to create new cars
@@ -83,7 +83,7 @@ var firstCar = new Car('Oldsmobile', 'Cutlass', 1991, 'white', 28000)
 ```javascript
 //anatomy
 class_name.prototype.method_name = function(first_argument) {
-	// body...
+	// body of function...
 };
 
 //example
@@ -154,5 +154,70 @@ wednesday(todolist); //this will build a list.
 + InConsole, remove a band from the ul
 + BONUS, create a function called isFavorite, it takes a string that represents your favorite band. The functions should go through the all the li, if the band name inside the li matches your favorite, add the class of "favorite" to the item. Write some a css rule to test.
 
-## Mini-Lesson 4, Event Loop
+## Mini-Lesson 3, Event Loop
+Example with Named Function
+```javascript
+//using a named function
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+    alert ("Hello World!");
+}
+```
+
+Commonly we use a anonymous callback
+```javascript
+element.addEventListener("click", function(){ 
+	alert("Hello World!"); 
+});
+```
+
+Lets add some functions to our todo list.
+```javascript
+var archive = [];
+
+//get the elements from the dom
+var add = document.getElementsByClassName('add')[0];
+var todo = document.getElementsByTagName('ul')[0];
+var done = document.getElementsByTagName('ul')[1];
+var clear = document.getElementsByClassName('clear')[0];
+//add an event listener, 
+add.addEventListener('click', function(){
+	console.log('add click heard');
+	var text = document.getElementsByClassName('newItem')[0].value;
+	
+	var item = document.createElement('li');
+	item.innerHTML = text;
+
+	todo.appendChild(item); 
+});
+
+todo.addEventListener('click', function(e){
+	console.log('ul click heard');
+	// debugger;
+
+	e.target.remove();	
+	e.target.className = 'done';
+	done.appendChild(e.target);
+	//archive.push(e.target); //just use this to show that the item doesn't get deleted
+})
+
+clear.addEventListener('click', function(){
+	var doneList = document.getElementsByClassName('done');
+	
+	//iterate over the done list
+	for(var i = doneList.length; i > 0; i--){
+		console.log(i)
+		doneList[0].remove();
+	}
+})
+```
+
+### You Do
+- Go back to your previous exercise files
+- Add a text area and button that allows a user to build their favorite bands to a jukebox.
+- When a band name is clicked, add the band text to a "Now Playing" div, change the text to green.
+- Create a stop button that removes the band name from "Now Playing"
+- BONUS: Create a draggable list of band names. 
+- BONUS 2: Make it actually play music!
 
