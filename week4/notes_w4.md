@@ -4,9 +4,15 @@
 - I can define objects, retrieve object properties, and call their functions.
 - I can build object constructors to define object types.
 - I can add, update, and delete object from the page using my knowledge of the DOM.
-- I can implement event listeners to watch for user input.
+- I can implement event listeners to watch for user interaction.
 
 ## Do Now
+- Create an Array of common greetings in different languages, i.e. "Hola" "Guten Tag" "Ni hao"
+- Create a function called greeting, that when given a name, responds with a randomly choosen greeting from the list. If a greeting chosen, remove it from the list.
+- Create a function called addMessage, it takes a string and adds it to the list of greetings.
+- Prompt the user for a name, use the greeting function to greet them to your app
+- Prompt the user for a custom greeting, use addMessage to add it to our list.
+- Make sure it all works within the console.
 
 ## Housekeeping
 
@@ -92,16 +98,61 @@ Car.prototype.drive = function(distance){
 - Prototype a function called printOut, this prints a string with the movie details. ie. "Point Break came out in 1991. The movie stars Patrick Swayze and Keanu Reeves. I rated it 4.5 stars and have watch it 6 times."
 
 ## Mini-Lesson 3, Da, Da, Dom
-- D.O.M, document *object* model
-- Every HTML element on the bag can be a javascript object
-- We can add and subtract elements from the DOM
-- To do this, we must *target* an element
-	+ We do this using the tag, name, ID or class of an object.
-	+ ID is the only unique identifier, all other targets give us an array, even if there is only one.
+- DOM, document *object* model
+- When a web page is loaded, the browser creates a document object model of the page.
+- This is simply a tree of objects, representing everything on the page.
+- Javascript can manipulate any part of the DOM, adding and removing at will.
+- Javascript can also add classes, ids and CSS attributes.
+
+We must get an element before we can do anything to it. Many ways to accomplish this.
+-document.getElementById(id) --> Find an element by element id
+-document.getElementsByTagName(name) --> Find elements by tag name, returns array
+-document.getElementsByClassName(name) --> Find elements by class name, returns array
 
 ```javascript
-//
-
+//show through console
+var list = document.getElementsByTagName('ul')[0]; //get the first element with the tag ul
+var firstItem = list.firstElementChild; //gets the first child of the element
+firstItem.style.color = "blue"; //change the styling of the first list item
+firstItem.className = 'current' //apply class
+firstItme.style.color = 'blue' //will override and set to true, should show as an inline color
 ```
 
+```javascript
+//live code and run
+var wednesday = function(list){
+	//A
+	var ul = document.createElement('ul');
+	ul.className = "wednesday";
+
+	var title = document.createElement('h2');
+	title.innerHTML = "My wednesday to do:";
+	ul.appendChild(title);
+	document.body.appendChild(ul);
+
+
+
+	for(var i = 0; i < list.length; i++){
+		var item = document.createElement('li'); //create the element
+		item.innerHTML = list[i]; //set the elemnt attributes and classes
+		ul.appendChild(item); //append to parent
+	}
+}
+
+wednesday(todolist); //this will build a list.
+```
+
+### You Do
++ Open domEx.html
++ make an array of five or your favorite bands
++ create a div
++ add the classname of "wrapper"
++ create a ul
++ Make a for loop that creates list items of your favorite bands, append each band to the ul
++ After the four loop append the ul to wrapper
++ Append the wrapper to the body
++ InConsole, remove a band from the ul
++ BONUS, create a function called isFavorite, it takes a string that represents your favorite band. The functions should go through the all the li, if the band name inside the li matches your favorite, add the class of "favorite" to the item. Write some a css rule to test.
+
 ## Mini-Lesson 4, Event Loop
+
