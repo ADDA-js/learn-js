@@ -27,7 +27,7 @@ Javascript @ Barnard 2016
 - Introduction to the DOM
 - Click Events
 - HW: [Hangman with Objects](https://classroom.github.com/assignment-invitations/41cb3d432536a53850d98004b3395bf7)
-- HW2: Add 
+- HW2: Add User Interaction to your hangman game.
 - HW3: Psuedo Coding your own Game
 
 **Week 5 - Project Week**

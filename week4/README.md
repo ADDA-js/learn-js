@@ -11,7 +11,7 @@
 
 ## Resources
 - [Object Reference, W3 Schools](http://www.w3schools.com/js/js_objects.asp)
-- [Protypes in Plain English, JS is Sexy Blog]()
+- [Protypes in Plain English, JS is Sexy Blog](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 - [Event Listender Reference, w3 schools](http://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 - [Event Bubbling, javascript.info](http://javascript.info/tutorial/bubbling-and-capturing#stopping-the-bubbling)
 - [Planning, Code Avengers](https://www.codeavengers.com/notes/planning/flowcharts)
