@@ -152,7 +152,8 @@ wednesday(todolist); //this will build a list.
 + After the four loop append the ul to wrapper
 + Append the wrapper to the body
 + InConsole, remove a band from the ul
-+ BONUS, create a function called isFavorite, it takes a string that represents your favorite band. The functions should go through the all the li, if the band name inside the li matches your favorite, add the class of "favorite" to the item. Write some a css rule to test.
++ BONUS, create a function called isFavorite, it takes a string that represents your favorite band. The functions should go through the all the li, if the band name inside the li matches your favorite, add the class of "favorite" to the item. Write some css rule to test.
++ BONUS, create a text input and a button. Add an event listener to the button, if the button is pressed, get the value from the text box. See if the valu is in your list.
 
 ## Mini-Lesson 4, Event Loop
 
