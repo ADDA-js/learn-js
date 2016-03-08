@@ -1,4 +1,7 @@
 ## Objectives
+- I can implement event listeners to watch for user interaction.
+- I can use gh-pages to setup hosting for my project
+- I can write user stories and pseudo code to guide my work flow.
 
 ## Resources
 - [Trello](https://trello.com/)
