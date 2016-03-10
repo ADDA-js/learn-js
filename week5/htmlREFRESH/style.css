@@ -1,0 +1,32 @@
+#wrapper{
+	display: block;
+	width: 500px;
+	height: 500px;
+	/*background-color: #BADA55;*/
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+img{
+	height: 100%;
+}
+
+.title{
+	font-size: 20px;
+
+}
+
+.row{
+	display: flex;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.box{
+	background-color: blue;
+	width: 200px;
+	height: 100%;
+
+	display: inline-block;
+	margin: 5px;
+}
