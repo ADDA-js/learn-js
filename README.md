@@ -3,7 +3,7 @@ Javascript @ Barnard 2016
 
 ![javascript](http://jpsierens.com/wp-content/uploads/2015/11/JavaScript-Logo.jpg)
 
-## Rough Calendar
+## Calendar
 ------
 **[Week 1](https://github.com/awdriggs-js/Spring_2016/tree/master/week1)**
 - Using the Terminal
@@ -30,25 +30,30 @@ Javascript @ Barnard 2016
 - HW2: Add User Interaction to your hangman game.
 - HW3: Psuedo Coding your own Game
 
-**Week 5 - Project Week**
+**[Week 5](https://github.com/awdriggs-js/Spring_2016/tree/master/week5) - Project Week**
 - Using Github pages to host your work
+- User Stories, Psuedo Code
 - Students will design and build a working game
 
-**Week 6**
-- What is JSON?
-- Using APIs
-- Usign AJAX
+**[Week 6](https://github.com/awdriggs-js/Spring_2016/tree/master/week5)**
+- Celebrate projects
+- JQuery
 
 **Week 7**
+- What is JSON?
+- Using APIs
+- Using AJAX
+
+**Week 8
 - Javascript in the server, Node.js
 - Routing with Express
 - Understanding the MVC design structure
 
-**Week 8**
+**Week 9**
 - Database design with MongoDB
 - Express Sessions
 - User authentication with Passport.js
 
-**Week 9 - Project Week**
+**BONUS CONTENT**
 - Students will design and build dynamic web apps.
 - Deploying with Heroku.
