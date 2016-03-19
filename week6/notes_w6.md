@@ -12,31 +12,30 @@
 
 ### Targeting
 ```javascript
+var parent = document.getElementById("about").parentNode;
+
 var parent = $("#about").parent();
 
-var parent = document.getElementById("about").parentNode;
 ```
 
 ### Creating
 ```javascript
-var newDiv = $("<div>");
-
 var newDiv = document.createElement("div");
-
-$("body").append($("<p>"));
-
 document.body.appendChild(document.createElement("p"));
+
+var newDiv = $("<div>");
+$("body").append($("<p>"));
 ```
 
 Click Events
 ```javascript
-$("a").click(function() {
-  // code
-})
-
 var links = document.getElementsByTagName("a")
 links.addEventListener('click', function(){
 	// code
+})
+
+$("a").click(function() {
+  // code
 })
 ```
 - jQuery isn't magic, its written in javascript. Anything that you do with jQuery can be done in plain js. But jQuery makes hard things simple.
@@ -136,7 +135,7 @@ var addItem = function(){
 ```
 
 ### You Do (5 minutes)
-- Change the the click event to a delegated click
+- Change the click event to a delegated click
 
-### HW
--LOTR?
+## HW
+- [LOTR](https://classroom.github.com/assignment-invitations/f121308f1af11f36bf64c87c8f0219f2)
