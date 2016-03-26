@@ -35,14 +35,22 @@ Javascript @ Barnard 2016
 - User Stories, Psuedo Code
 - Students will design and build a working game
 
-**[Week 6](https://github.com/awdriggs-js/Spring_2016/tree/master/week5)**
-- Celebrate projects
-- JQuery
+** Week 6
+- In class build time for projects.
 
-**Week 7**
+**[Week 7](https://github.com/awdriggs-js/Spring_2016/tree/master/week5)**
+- JQuery
 - What is JSON?
 - Using APIs
 - Using AJAX
+
+*** HW
+- [Lord of the Bling](https://classroom.github.com/assignment-invitations/f121308f1af11f36bf64c87c8f0219f2)
+- Read about [Node.js](http://eloquentjavascript.net/20_node.html)
+- Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
+- Follow the install tutorial.
+	+ Mac
+	+ [Windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 
 **Week 8
 - Javascript in the server, Node.js

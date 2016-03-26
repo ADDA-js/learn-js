@@ -1,8 +1,9 @@
-# Week 6 - JS
+# Week 7 - JS
 
 ## Objectives
-- I can celebrate the success of building my first app.
 - I can understand when and how to use jQuery.
+- I can use an external api to retrieve data.
+- 
 
 ## Do Now
 
@@ -138,5 +139,92 @@ var addItem = function(){
 ### You Do (5 minutes)
 - Change the the click event to a delegated click
 
+## Mini-Lesson 2: APIs and JSON
+### API
+- API (application program interface)
+- APIs allow us to interact with other servers and programs.
+- Many different APIs exist, ex. twitter, instagram, pinterest, google maps, youtube, facebook, accuweather, and millions more.
+- Some apis are paid, many are free.
+- Today we use the giphy api
+
+### JSON
+- JSON: JavaScript Object Notation.
+- JSON is a syntax for storing and exchanging data.
+- Language agnostic, many different languages can work with JSON.
+- Many APIs return data in the form of JSON.
+
+### AJAX
+- Asynchronous Javascript and XML
+- ajax is the protocol through which our apps can interact with servers
+- can be used to send and receive information.
+
+### Code Example 1 - investigating a return from the giphy api
+- Objective, use the giphy api to build a gallery of gifs
+- Lets start by looking at a AJAX call to the giphy API and what is returned.
+- In the broswer, open `giphy/one.html`
+- Click the links, lets talk about what we see.
+
+### Code Example 2 - using jquery to make the call to the api
+```
+// alert('working')
+$(document).ready(function() {
+	  $.ajax({
+    	url: 'http://api.giphy.com/v1/gifs/search?q=pizza&api_key=dc6zaTOxFJmzC',
+    	method: 'GET'
+    })
+   	.done(render);
+
+});
+
+var render = function(response){
+	debugger;
+}
+```
+-Stop here, discuss 
+- Q1: what is response? 
+- Q2: what is inside response?
+- Q3: How would I use js to get the url for a fixed height gif from the first element of the array? 
+
+
+- A1: its an object, whats in the object
+- A2: an array of objects
+- A3: `var url = response.data[0].images.fixed_height.url`
+
+
+### Code Example 3 - doing something cool, build the gallery
+```javascript
+//Same as Two to start
+$(document).ready(function() {
+	  $.ajax({
+    	url: 'http://api.giphy.com/v1/gifs/search?q=pizza&api_key=dc6zaTOxFJmzC',
+    	method: 'GET'
+    })
+   	.done(render);
+});
+
+var render = function(response){
+	//build the elements to the dom
+	//Grab the wrapper div
+	var wrapper = $('.wrapper');
+
+	//for every object in the response data array
+	for(var i = 0; i < response.data.length; i++){
+		//  -create a new image tag 
+		var image = $('<img>');
+		image.addClass('grid-item')
+		//	-grab the fixed-height url
+		var url = response.data[i].images.fixed_height.url;
+		// 	-set the img src to the url
+		image.attr('src', url);
+		//	-append the img to the wrapper
+		wrapper.append(image);
+	}
+}
+```
+- Q4: right now this is only returns pizza gifs, while cool, what if I want to get different gifs, how would I do that?
+- A4: change the 'pizza' in the search string to something else
+
 ### HW
--LOTR?
+- [Lord of the Bling]()
+- Read about [Node.js](http://eloquentjavascript.net/20_node.html)
+- Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
