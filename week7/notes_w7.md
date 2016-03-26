@@ -13,31 +13,30 @@
 
 ### Targeting
 ```javascript
+var parent = document.getElementById("about").parentNode;
+
 var parent = $("#about").parent();
 
-var parent = document.getElementById("about").parentNode;
 ```
 
 ### Creating
 ```javascript
-var newDiv = $("<div>");
-
 var newDiv = document.createElement("div");
-
-$("body").append($("<p>"));
-
 document.body.appendChild(document.createElement("p"));
+
+var newDiv = $("<div>");
+$("body").append($("<p>"));
 ```
 
 Click Events
 ```javascript
-$("a").click(function() {
-  // code
-})
-
 var links = document.getElementsByTagName("a")
 links.addEventListener('click', function(){
 	// code
+})
+
+$("a").click(function() {
+  // code
 })
 ```
 - jQuery isn't magic, its written in javascript. Anything that you do with jQuery can be done in plain js. But jQuery makes hard things simple.
@@ -137,8 +136,9 @@ var addItem = function(){
 ```
 
 ### You Do (5 minutes)
-- Change the the click event to a delegated click
+- Change the click event to a delegated click
 
+<<<<<<< HEAD:week7/notes_w7.md
 ## Mini-Lesson 2: APIs and JSON
 ### API
 - API (application program interface)
@@ -228,3 +228,7 @@ var render = function(response){
 - [Lord of the Bling]()
 - Read about [Node.js](http://eloquentjavascript.net/20_node.html)
 - Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
+=======
+## HW
+- [LOTR](https://classroom.github.com/assignment-invitations/f121308f1af11f36bf64c87c8f0219f2)
+>>>>>>> d1cfa54dd8dcf123cdbb92064115cc2c524f40ec:week6/notes_w6.md
