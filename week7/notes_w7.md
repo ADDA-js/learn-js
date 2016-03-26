@@ -3,7 +3,6 @@
 ## Objectives
 - I can understand when and how to use jQuery.
 - I can use an external api to retrieve data.
-- 
 
 ## Do Now
 
@@ -279,5 +278,6 @@ var render = function(response){
 
 ### HW
 - [Lord of the Bling](https://classroom.github.com/assignment-invitations/f121308f1af11f36bf64c87c8f0219f2)
+- [Immitation Movie Database](https://classroom.github.com/assignment-invitations/e3e21f0b37f42d68cd37c3ca1c15ab96)
 - Read about [Node.js](http://eloquentjavascript.net/20_node.html)
 - Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)

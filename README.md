@@ -38,7 +38,7 @@ Javascript @ Barnard 2016
 ** Week 6
 - In class build time for projects.
 
-**[Week 7](https://github.com/awdriggs-js/Spring_2016/tree/master/week5)**
+**[Week 7](https://github.com/awdriggs-js/Spring_2016/tree/master/week7)**
 - JQuery
 - What is JSON?
 - Using APIs
@@ -46,10 +46,11 @@ Javascript @ Barnard 2016
 
 *** HW
 - [Lord of the Bling](https://classroom.github.com/assignment-invitations/f121308f1af11f36bf64c87c8f0219f2)
+- [Immitation Movie Database](https://classroom.github.com/assignment-invitations/e3e21f0b37f42d68cd37c3ca1c15ab96)
 - Read about [Node.js](http://eloquentjavascript.net/20_node.html)
 - Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
 - Follow the install tutorial.
-	+ Mac
+	+ [Mac](https://changelog.com/install-node-js-with-homebrew-on-os-x/)
 	+ [Windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 
 **Week 8
