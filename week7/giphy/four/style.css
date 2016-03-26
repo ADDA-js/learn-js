@@ -1,0 +1,20 @@
+html{
+	font-family: helvetica;
+}
+body{
+	 background: linear-gradient(#FE6105, #EDD50A);
+}
+h2{
+	font-size: 4rem;
+	text-align: center;
+	color: #eee;
+}
+
+.wrapper{
+	max-width: 800px;
+	margin:0 auto;
+	text-align: center;
+}
+
+
+

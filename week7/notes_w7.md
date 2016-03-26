@@ -77,12 +77,12 @@ When you might not need jQuery
 
 ### You Do (5 minutes)
 - Open `playlist.html`
-- Use jquery to change the change your name in the title
+- Use jquery to change your name in the title
 - Use Jquery to add three songs to the ul with a class of `playlist`
 - Add the class 'now-playing' to the first song you added
 
 ### Iteration
--Add this to previous code
+-Add this to ddprevious code
 ```javascript
 //Iteration
 	$('li').each(function(){
@@ -138,7 +138,6 @@ var addItem = function(){
 ### You Do (5 minutes)
 - Change the click event to a delegated click
 
-<<<<<<< HEAD:week7/notes_w7.md
 ## Mini-Lesson 2: APIs and JSON
 ### API
 - API (application program interface)
@@ -224,11 +223,61 @@ var render = function(response){
 - Q4: right now this is only returns pizza gifs, while cool, what if I want to get different gifs, how would I do that?
 - A4: change the 'pizza' in the search string to something else
 
+### Code Example 4 - adding search
+```javascript
+	$(document).ready(function() {
+		 //set an event listener to the go button
+
+
+		 $('.go').click(function(){
+			//grab the search term from the search text input 	
+		 	var term = $('.search').val()
+		 	//call the new search function with the term as a parameter
+		 	search(term);
+
+		 	//hide the search box
+		 	$('.searchbox').hide();
+		 });
+
+	});
+
+	//move the ajax call to its own function, called search
+	//should accept a search term as a parameter
+	var search = function(term){
+		 $.ajax({
+	    	url: 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=dc6zaTOxFJmzC',
+	    	method: 'GET'
+	    })
+	   	.done(render);
+	}
+
+	//same as three...
+	var render = function(response){
+		//build the elements to the dom
+		//Grab the wrapper div
+		var wrapper = $('.wrapper');
+
+		//for every object in the response data array
+		for(var i = 0; i < response.data.length; i++){
+			//  -create a new image tag 
+			var image = $('<img>');
+			image.addClass('grid-item')
+			//	-grab the fixed-height url
+			var url = response.data[i].images.fixed_height.url;
+			// 	-set the img src to the url
+			image.attr('src', url);
+			//	-append the img to the wrapper
+			wrapper.append(image);
+		}
+	}
+```
+
+### You Do
+- Add a 'random' button that will show any random gif to the screen.
+- Hint: the `render` function won't work anymore, check out the the giphy api docs to understand why.
+- Write a new function called `renderRandom` that will put a single full size gif in the wrapper.
+
 ### HW
-- [Lord of the Bling]()
+- [Lord of the Bling](https://classroom.github.com/assignment-invitations/f121308f1af11f36bf64c87c8f0219f2)
 - Read about [Node.js](http://eloquentjavascript.net/20_node.html)
 - Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
-=======
-## HW
-- [LOTR](https://classroom.github.com/assignment-invitations/f121308f1af11f36bf64c87c8f0219f2)
->>>>>>> d1cfa54dd8dcf123cdbb92064115cc2c524f40ec:week6/notes_w6.md
