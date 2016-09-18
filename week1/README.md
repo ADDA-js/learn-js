@@ -16,5 +16,3 @@
 - Code away!
 - We will go over submitting assignments next class.
 
-**Challenge Only** I will likely assign this as HW next week or we will do it in class. 
-[Rock Paper Scissors](https://classroom.github.com/assignment-invitations/497a0a18d496324b317b9895472b9c62)

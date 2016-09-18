@@ -10,7 +10,7 @@ website: [adamdriggers.com](www.adamdriggers.com)
 github: [github.com/awdriggs](github.com/awdriggs)
 
 ##Contacting Each Other
-Slack Channel: #js_driggers
+Slack Channel: #f16-th-js
 Google Group: https://groups.google.com/d/forum/adda_js
 Group Email: [adda_js@googlegroups.com](mailto:adda_js@googlegroups.com)
 
@@ -18,6 +18,7 @@ Group Email: [adda_js@googlegroups.com](mailto:adda_js@googlegroups.com)
 ##Getting Started with Github
 Create a github account. www.github.com
 Github is cloud storage for code. So much can be found on github. This is how i will be assigning and collecting work. Don’t worry, I will be showing how to use github and git in class.
+*make sure you download the github desktop app*
 
 ##Getting Started with Slack
 Wait for an email from Slack. Follow the sign-up procedure.

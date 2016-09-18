@@ -1,5 +1,4 @@
 # Week 1 Instructor Notes
-
 ## Objectives
 - I can explain when and why javascript is used.
 - I can use the terminal to navigate, create files and folders.
@@ -7,7 +6,7 @@
 
 ## Do Now
 - Open Slack (Browser or App!)
-- In our class channel "js_driggers" slack your response to this question. What do you hope to accomplish in this class? 
+- In our class channel "f16-w-js" slack your response to this question. What do you hope to accomplish in this class? 
 
 ## Introductions/Housekeeping
 
@@ -36,14 +35,12 @@ Javascript is nearly a universal language. It runs all sorts of devices and syst
 - JS is the standard for all web interactions.
 - JS is can be used as a full stack, meaning we can write js for both the client and the server. This is awesome!
 
-## MiniLesson 1 - Using Terminal
-Get Terminal fired up!
+## MiniLesson 1 - Using Github Desktop 
 ### Git and Github
-1. type `git --version`, if github isn't installed it will prompt you to install. Do it!
-2. Go to https://github.com/awdriggs-js/Spring_2016
-3. Find the "Fork" button. Click it!
-4. Copy the HTTPS clone url.
-5. Back in Terminal, go to the director where you want all your work to live, type `git clone` then paste the clone url.
+  1. Go to https://github.com/ADDA-js/learn-js 
+  2. Find the "Fork" button. Click it!
+  4. Click "Clone or Download" then click "Open in Desktop." If youhave Github desktop installed, this should work on load the repo onto your computer
+  5. Back in Terminal, go to the director where you want all your work to live, type `git clone` then paste the clone url.
 
 ### Bash it!
 We are going to be using the terminal a lot. At first it might seem cumbersome, but there is a purpose. First, it is way faster to navigate, create folders, and create files in the terminal. Second, we are going to be using terminal to commit our work to github. Lastly, being able to use the terminal is really helpful when you start deploying apps to a server. It's better to start now.
@@ -111,7 +108,7 @@ This is where you should do your work. *DO NOT* work in work in the other folder
 - variables can be initialized, then set
 - if the variable is initialized, it's value is undefined, this is not good practice.
 - you can do variable == undefined and it would be true
-- undefined is a variable that's available in javascript on default (easy explaination)
+- undefined is a variable that's available in javascript on default (easy explanation)
 - undefined is a variable that's available in global scope on default
 - variables can be initialized and set in one go
 - go over the different datatypes being used
