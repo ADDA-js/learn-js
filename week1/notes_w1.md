@@ -177,9 +177,5 @@ Ask the user if they are registered to vote. If yes continue with the first part
 6. Check out your github page, all work you did in class should now be online.
 
 ## Homework
-[A Simple Calculator](https://classroom.github.com/assignment-invitations/903e33134291838a197b7406163870d5), accept the invitation. 
-- In terminal, do 'git clone <yourHWRepo>'
-- Do your work in this repo.
-- Use the psuedo code to get started if you are stuck.
-- Commit and push often, push your final project by Tuesday night.
+[starter code](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/week1/myCalc-starter)
 

@@ -10,9 +10,9 @@
 
 ## Homework
 **Calculator App**
-[My Calculator](https://github.com/awdriggs/myCalc)
-- Go the repo
-- Download the zip
-- Code away!
-- We will go over submitting assignments next class.
+[starter code](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/week1/myCalc-starter)
+  1. In the github desktop app, go the repo called "F_2016_JS_HW"
+  2. sync any changes that I may have added to get up to date starter code 
+  3. On your computer, make a copy of the starter folder, replace "starter" with your name.
+  4. Do all of your work inside this folder. Save often!
 
