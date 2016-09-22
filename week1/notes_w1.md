@@ -39,59 +39,8 @@ Javascript is nearly a universal language. It runs all sorts of devices and syst
 ### Git and Github
   1. Go to https://github.com/ADDA-js/learn-js 
   2. Find the "Fork" button. Click it!
-  4. Click "Clone or Download" then click "Open in Desktop." If youhave Github desktop installed, this should work on load the repo onto your computer
+  4. Click "Clone or Download" then click "Open in Desktop." If you have Github desktop installed, this should work on load the repo onto your computer
   5. Back in Terminal, go to the director where you want all your work to live, type `git clone` then paste the clone url.
-
-### Bash it!
-We are going to be using the terminal a lot. At first it might seem cumbersome, but there is a purpose. First, it is way faster to navigate, create folders, and create files in the terminal. Second, we are going to be using terminal to commit our work to github. Lastly, being able to use the terminal is really helpful when you start deploying apps to a server. It's better to start now.
-
-#### Navigation
-`cd folderName`
-- let's you change directories (that's what it stands for)
-- it's like you're clicking into that folder
-
-`cd ..`
-- let's you go to the previous directory
-
-Try it, navigate into week0, the type `cat README.md` Hint: tab key will autocomplete, keep hitting type until you get what you want.
-
-
-#### Creating a folder
-Navigate back out to the repo folder. `cd ..`.
-Use `mkdir` followed by your name, no spaces. this creates a folder for you to do all the work.
-
-This is where you should do your work. *DO NOT* work in work in the other folders in the repo. There is a strong chance it will be overwritten when you pull down my updates.
-
-#### Creating Files
-
-#### Cheatsheet of Common Commands
-`pwd`
--print working directory, shows you where you are now
-
-`open .`
--opens the current folder in finder
-
-`ls`
-- lists the files in a folder
-
-`cd folderName`
-- let's you change directories (that's what it stands for)
-- it's like you`re clicking into that folder
-
-`cd ..`
-- let's you go to the previous directory
-
-`touch filename`
-- make a file where you are in the terminal
-
-`rm filename`
-- will delete a file permanently - won't be included in your trash
-
-`mkdir foldername`
-- make a folder where you are in the terminal
-
-`rm -rf foldername`
-- will delete a folder permanently - won't be included in your trash
 
 ## MiniLesson 2 - Javascript Data, Comparisons, Conditionals
 
@@ -168,14 +117,67 @@ If they younger than 18, alert them they can't vote.
 **Challenge**
 Ask the user if they are registered to vote. If yes continue with the first part. If no, redirect the user to the website to register in New York.
 
-## Lets Push!
-1. Save all your work.
-2. Go back to terminal, navigate to the root of this repo.
-3. Type 'git add .', this adds all the changes you made today.
-4. Type 'git commit -m "adding work from w1 class"'
-5. Type 'git push'
-6. Check out your github page, all work you did in class should now be online.
+## EX2 - 5 minutes
+Comparisons compare two things, give you an answer as a boolean value. Let's dig into some examples
+	
+```
+	// discover exercise regarding strings, numbers and booleans, conditional logic
 
+
+	/*
+	if (true == true){
+		alert('hi')
+	}else{
+		alert('bye')
+	}*/
+
+	/*
+	if (false == false){
+		alert('dude')
+	}else{
+		alert('nope')
+	}*/
+
+	/*if ("4" == 4){
+		alert('barnard')
+	}else{
+		alert('marford - I made this up')
+	}*/
+
+	/*if ("4" === 4){
+		alert('barnard')
+	}else{
+		alert('marford - I made this up')
+	}*/
+
+	/*if (true){
+		alert('goo goo dolls')
+	}else{
+		alert('vanilla ice')
+	}*/
+
+	/*if (false){
+		alert('the neighborhood')
+	}else{
+		alert('one direction')
+	}*/
+
+	/*if (("5" + "5") == "55"){
+		alert('tofu')
+	}else{
+		alert('soybean')
+	}*/
+
+	/*if ((6 + "5") == "65"){
+		alert('richard')
+	}else{
+		alert('branson')
+	}*/
+```
+
+## Homework Push!
+  - show students how to push how to the homework repo.
+  
 ## Homework
 [starter code](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/week1/myCalc-starter)
 
