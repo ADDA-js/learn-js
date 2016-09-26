@@ -179,5 +179,5 @@ Comparisons compare two things, give you an answer as a boolean value. Let's dig
   - show students how to push how to the homework repo.
   
 ## Homework
-[starter code](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/week1/myCalc-starter)
+[starter code](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w1-myCalc)
 

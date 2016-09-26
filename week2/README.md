@@ -13,8 +13,5 @@
 6. Check out your github page, all work you did in class should now be online.
 
 ## Homework
-[Rock Paper Scissors](https://classroom.github.com/assignment-invitations/497a0a18d496324b317b9895472b9c62), accept the invitation. 
-- In terminal, do 'git clone <yourHWRepo>'
-- Do your work in this repo.
-- Use the psuedo code to get started if you are stuck.
-- Commit and push often, push your final project by Tuesday night.
+[Rock Paper Scissors](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w2-rockpaperscissors)
+
