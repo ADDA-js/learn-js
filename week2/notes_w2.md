@@ -30,58 +30,77 @@ if(cash = 0){
 Comparisons compare two things, give you an answer as a boolean value. Let's dig into some examples
 	
 ```
-	// discover exercise regarding strings, numbers and booleans, conditional logic
+/*
+if (true == true){
+	alert('hi')
+}else{
+	alert('bye')
+}
+*/
 
+/*
+if (false == false){
+	alert('dude')
+}else{
+	alert('nope')
+}
+*/
 
-	/*
-	if (true == true){
-		alert('hi')
-	}else{
-		alert('bye')
-	}*/
+/*
+if ("4" == 4){
+	alert('barnard')
+}else{
+	alert('columbia')
+}
+*/
 
-	/*
-	if (false == false){
-		alert('dude')
-	}else{
-		alert('nope')
-	}*/
+/*
+if("4" === 4){
+  alert('barnard')
+}else{
+  alert('columbia');
+*/
 
-	/*if ("4" == 4){
-		alert('barnard')
-	}else{
-		alert('marford - I made this up')
-	}*/
+/*
+if (true){
+  alert('goo goo dolls')
+}else{
+  alert('vanilla ice')
+}
+*/
 
-	/*if ("4" === 4){
-		alert('barnard')
-	}else{
-		alert('marford - I made this up')
-	}*/
+/*
+if (("5" + "5") == "55"){
+  alert('tofu')
+}else{
+  alert('soybean')
+}
+*/
 
-	/*if (true){
-		alert('goo goo dolls')
-	}else{
-		alert('vanilla ice')
-	}*/
+/*
+if ((6 + "5") == "65"){
+  alert('richard')
+}else{
+  alert('branson')
+}
+*/
+		
+/*
+if (!true == false){
+  alert('goo goo dolls')
+}else{
+  alert('vanilla ice')
+}
+*/
 
-	/*if (false){
-		alert('the neighborhood')
-	}else{
-		alert('one direction')
-	}*/
-
-	/*if (("5" + "5") == "55"){
-		alert('tofu')
-	}else{
-		alert('soybean')
-	}*/
-
-	/*if ((6 + "5") == "65"){
-		alert('richard')
-	}else{
-		alert('branson')
-	}*/
+/*
+var something; 
+if (something != undefined){
+  alert('car')
+}else{
+  alert('van')
+}
+*/
 ```
 
 ## Mini-Lesson 2, while loops
