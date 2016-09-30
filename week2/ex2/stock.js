@@ -1,10 +1,11 @@
-var stockPrice = 10; //assume dollars
+console.log('working!');
 
-while (stockPrice >= 10){
+var stockprice = 10; 
 
-	stockPrice = parseInt(prompt("What's ADDA's stock price now?")); //won't work - why? Spend 2 minutes discussing this with your partner
+while(stockprice >= 10) {
+	stockprice = parseInt(prompt("what is the price?"));
+    
+    alert("current price is $" + stockprice); 
+} 
 
-	if (stockPrice < 10){
-		alert('Sell!!!');
-	}
-}
+alert("You should be selling!")
