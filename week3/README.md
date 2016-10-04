@@ -7,11 +7,7 @@
 - I can build object constructors to define object types
 
 ## Homework
-[Console Hangman](https://classroom.github.com/assignment-invitations/41cb3d432536a53850d98004b3395bf7)
-- In terminal, do 'git clone <yourHWRepo>'
-- Do your work in this repo.
-- Use the psuedo code to get started if you are stuck.
-- Commit and push often, push your final project by Tuesday night.
+[String and Array Function Practice](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w3-strings-arrays)
 
 ## Resources
 [Functions](http://eloquentjavascript.net/03_functions.html)
@@ -19,6 +15,3 @@
 [String Reference](http://www.w3schools.com/jsref/jsref_obj_array.asp)
 [Object Reference](http://www.w3schools.com/js/js_objects.asp)
 
-
-## Need A Challenge? 
-- Try [Project Euler 6](https://projecteuler.net/problem=6)
