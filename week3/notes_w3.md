@@ -205,6 +205,7 @@ Write a new related function. It now should only take a name. The function shoul
 - i.e. '11 is odd'
 
 #### Task 2
+(i'm using this for the next weeks do now since we ddint' ccomplete in class.
 - Write a function `lengths` that accepts an array as a single parameter.
 - The function should return an array of numbers where each number is the length of the corresponding string.
 ```javascript
