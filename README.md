@@ -27,6 +27,7 @@ Javascript @ Barnard 2016
 **[Week 4](https://github.com/awdriggs-js/Spring_2016/tree/master/week4)**
 - Using Objects
 - Prototyping
+- Slides: [Week 4 Slides](https://docs.google.com/presentation/d/1D_BrpPHXbJOaPOZOPcbrFDbq8ks9dPYXCOVLhijkWBc/edit?usp=sharing)
 - HW: [Hangman](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w4-hangman)
 
 **[Week 5](https://github.com/awdriggs-js/Spring_2016/tree/master/week5)**
