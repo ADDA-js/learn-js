@@ -8,38 +8,40 @@ Javascript @ Barnard 2016
 **[Week 1](https://github.com/awdriggs-js/Spring_2016/tree/master/week1)**
 - Using the Terminal
 - Introduction to JS
+- Slides: [Week 1 Slides](https://docs.google.com/presentation/d/1OmX5iGvFmtREDT0eR74hJqGY2qUztX-gLUmn3_mrXh0/edit?usp=sharing)
 - HW: [Simple Calculator](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w1-myCalc)
 
 **[Week 2](https://github.com/awdriggs-js/Spring_2016/tree/master/week2)**
 - While Loops
 - More Git
+- Slides: [Week 2 Slides](https://docs.google.com/presentation/d/1SZaqrfD1nBfnI1vjNHiPL1JKQVxp3Np_2nBGnIB5kWU/edit?usp=sharing)
 - HW: [Rock Paper Scissors](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w2-rockpaperscissors)
 
 **[Week 3](https://github.com/awdriggs-js/Spring_2016/tree/master/week3)**
 - Array Functions
+- String Functions
 - For loops
-- HW: [Hangman](https://classroom.github.com/assignment-invitations/e6e67f9bb41c68feb2b4ebcc2805aa6b)
+- Slides: [Week 3 Slides](https://docs.google.com/presentation/d/14iFl7KczbFn3Wj2pagHldpgxuehngpjmXy289TfQzSw/edit?usp=sharing)
+- HW: [Fun with String and Array Functions](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w3-strings-arrays)
 
 **[Week 4](https://github.com/awdriggs-js/Spring_2016/tree/master/week4)**
 - Using Objects
 - Prototyping
+- HW: [Hangman](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w4-hangman)
+
+**[Week 5](https://github.com/awdriggs-js/Spring_2016/tree/master/week5)**
 - Refresh on HTML/CSS ids and classes
 - Introduction to the DOM
 - Click Events
-- HW: [Hangman with Objects](https://classroom.github.com/assignment-invitations/41cb3d432536a53850d98004b3395bf7)
-- HW2: Add User Interaction to your hangman game.
-- HW3: Psuedo Coding your own Game
+- HW: Make the hangman game interactive, no more console!
 
-**[Week 5](https://github.com/awdriggs-js/Spring_2016/tree/master/week5) - Project Week**
+** Week 6
+- In class build time for projects.
 - Using Github pages to host your work
 - User Stories, Psuedo Code
 - Students will design and build a working game
 
-** Week 6
-- In class build time for projects.
-
 **[Week 7](https://github.com/awdriggs-js/Spring_2016/tree/master/week7)**
-- JQuery
 - What is JSON?
 - Using APIs
 - Using AJAX
