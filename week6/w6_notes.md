@@ -111,6 +111,7 @@ $('li').click(function(){
 		$(this).css('text-decoration', 'line-through');
 	});
 ```
+*fall 2016 stopped here, pickup next week*
 - Uncomment the input area
 - Add a listener to the button
 ```javascript
