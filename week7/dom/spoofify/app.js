@@ -15,5 +15,34 @@ $(document).ready(function(){
 		$('ul').append('<li>' + item + '</li>')
 	})
 
+	// $('li').click(function(){
+	// 	$(this).addClass('now-playing');
+	// })
+
+	$('.playlist').on('click', 'li', function(e){
+		$(e.target).addClass('now-playing');
+	})
+
+	$('.add').click(addSong);
 
 })
+
+var addSong = function(){
+	var songTitle = $('.newItem').val();
+	console.log(songTitle) 
+	var song = $('<li>').text(songTitle);
+
+	$('.playlist').append(song);
+
+}
+
+
+
+
+
+
+
+
+
+
+
