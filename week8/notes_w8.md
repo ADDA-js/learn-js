@@ -154,6 +154,5 @@ var render = function(response){
 ## Introduce Final Project
 
 ### HW
-- [Immitation Movie Database](https://classroom.github.com/assignment-invitations/e3e21f0b37f42d68cd37c3ca1c15ab96)
 - Read about [Node.js](http://eloquentjavascript.net/20_node.html)
 - Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
