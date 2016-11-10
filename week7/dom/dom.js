@@ -33,12 +33,29 @@ $(document).ready(function(){
 	// $('li').addClass('done');
 
 	//add event listener
-	$('li').click(function(){
-		$(this).css('text-decoration', 'line-through')
-	})
+	// only works with things in the dom on page load
+	// $('li').click(function(){
+	// 	$(this).css('text-decoration', 'line-through')
+	// })
+
+	
+	$('.add').click(addItem);
+
+	//Delegated click event
+	//work on everything no matter when it was created
+	$('ul').on('click', 'li', function(element){
+		console.log(element.target);
+		$(element.target).css('text-decoration', 'line-through')
+	});
 
 });
 
+var addItem = function(){
+	var addTodo = $('.newItem').val();
+	// console.log(addTodo);
+	var item = $('<li>').text(addTodo);
+	$('ul').append(item);
+}
 
 
 
