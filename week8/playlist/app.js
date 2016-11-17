@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+  //delegated click function for the add to playlist button
   $('.results').on('click', '.add', function(e) {
     console.log(e);
     console.log(this);
