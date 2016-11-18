@@ -14,6 +14,18 @@ $(document).ready(function() {
 
 var calculate = function(data){
 //data is the json object returned from the api.
+	var total  = 0;
 
-  
+	for(var i = 0; i < data.length; i++){
+		
+		var fine = parseInt(data[i].amount_due)
+		if(fine){
+			// console.log(fine);
+			//total += fine; 
+			total = total + fine
+		}
+	}
+  console.log(total)
+
+  $('.amt').text(total);
 }
