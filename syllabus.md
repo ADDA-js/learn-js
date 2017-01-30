@@ -35,7 +35,7 @@ There will be some work outside of class. This is meant to reinforce concepts co
 ------
 **Week 1**
 - Introduction to JS
-- HW: Rock Paper Scissors
+- HW: Calculator App 
 
 **Week 2**
 - Array Functions
