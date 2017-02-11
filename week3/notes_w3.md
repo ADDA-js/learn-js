@@ -34,11 +34,11 @@ var tester = prompt("Type something!");
 
 alert("your string is " + tester.length + " characters long")
 ```
+
 - show `string.charAt()`
 - show `string.toLowerCase()`
 - show `string.toUpperCase()`
 - show `string.indexOf()`
-```
 
 ### arrays
 - introduce arrays
@@ -84,11 +84,11 @@ animals.unshift('rabbit') //pushes to beginning // returns the new array length
 animals.pop() //removes the last element of the array //also returns that element as a value
 
   animals[0] = 'lion'; //replaces a value in an array
-  ```
+```
 
-  - show `string.split()`, this creates an array.
+- show `string.split()`, this creates an array.
 
-  ```javacript
+```javacript
   var word = 'barnard';
 
   var wordsLetters = word.split(); //doesn't work as expected why?
@@ -101,9 +101,9 @@ animals.pop() //removes the last element of the array //also returns that elemen
 
   wordsLetters;
 
-  ```
+```
 
-  - explain what arrays are to your partner
+- explain what arrays are to your partner
 
 #### EX 1.1, 10 minutes you do
 - make a list of 5 of your favorite bands/musicians and put it inside of an array and store that into a variable called myFavoriteMusicalArtists (make all your options lower case)
