@@ -1,16 +1,28 @@
 # Week 4
 
-## Objectives
+## Part 1 - Objects
+### Objectives
 - I can define objects, retrieve object properties, and call their functions.
 - I can build object constructors to define object types.
 
-## Slides
-[Week 4 Slide Deck](https://docs.google.com/presentation/d/1D_BrpPHXbJOaPOZOPcbrFDbq8ks9dPYXCOVLhijkWBc/edit?usp=sharing)
+### Resources
+- [slides](https://docs.google.com/presentation/d/1D_BrpPHXbJOaPOZOPcbrFDbq8ks9dPYXCOVLhijkWBc/edit?usp=sharing)
+- [Eloquent JS](http://eloquentjavascript.net/06_object.html)
+- [JS is Sexy - Objects](http://javascriptissexy.com/javascript-objects-in-detail/)
 
-## Resources
-- [Object Reference, W3 Schools](http://www.w3schools.com/js/js_objects.asp)
-- [Protypes in Plain English, JS is Sexy Blog](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
+## Part 2 - Introducing DOM and JQuery
 
-## Homework
-- [Hangman](https://github.com/ADDA-js/F_2016_JS_HW/tree/master/w4-hangman)
+### Objectives
+- I can add, update, and delete object from the page using my knowledge of the DOM.
+- I can implement event listeners to watch for user interaction.
 
+### Resources
+- [slides](https://docs.google.com/presentation/d/1LTNojnFSqHWKDNJmzSzectQe1s_h-5xVm8_vnZ9-vUQ/edit?usp=sharing)
+- [JQuery Docs](http://api.jquery.com/)
+- [W3 Schoosl JQuery Reference](https://www.w3schools.com/jquery/default.asp)
+
+## HW
+-Meme Generator
+
+## Notes
+[my notes - don't peak!](https://github.com/ADDA-js/learn-js/blob/master/week4/notes_w4.md)

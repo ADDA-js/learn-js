@@ -1,0 +1,43 @@
+
+body{
+	background-color: #ddd;
+	font-family: 'Muli', sans-serif; 
+
+}
+
+.wrapper{
+	width: 900px;
+	min-height: 600px;
+	margin: 0 auto;
+	background-color: #eee;
+	padding: 10px;
+}
+
+h1{
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+
+h3{
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+}
+
+li{
+
+}
+
+.current{
+	color: orange;
+
+	background-color: #eee;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
