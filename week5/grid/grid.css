@@ -1,0 +1,29 @@
+body{
+  background-color: #75BBA7;
+}
+
+.wrapper{
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2px;
+}
+
+.box{
+  width: 96px;
+  height: 96px;
+  margin: 2px;
+  display: inline-block;
+  background-color: #7AE7C7;
+}
+.box:hover{
+  background-color: #75BBA7;
+}
+.row{
+
+}
+
+.clicked{
+  background-color: grey;
+}

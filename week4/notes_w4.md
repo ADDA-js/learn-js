@@ -155,7 +155,7 @@ When you might not need jQuery
 - Working on complex web applications
 - Building you own library or framework
 -Server side applications with Node.js
-
+*s17 stopped here*
 ### Traversal and Manipulation
 ```javascript
 //Get the title change it 'Daily To Do List'
