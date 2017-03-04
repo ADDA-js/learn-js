@@ -13,6 +13,25 @@ $(document).ready(function(){
   
   //use implicit iteration to a click function to each of the boxes
   //since boxes aren't being added dynamically, no need for a delegated event
+ var rows = 10;
+ var columns = 10;
+  for(var i = 0; i < rows; i++){
+    var row = $('<div>').addClass('row');
+    
+    for(var j = 0; j < columns; j++){
+     var box =  $('<div>').addClass('box row-'+i + ' col-'+j);
+
+      row.append(box);
+    }
+
+    $('.wrapper').append(row);
+  }
+
+  //click event to each box
+  $('.box').click(function(){
+  	 console.log(this);
+  	$(this).addClass('clicked');
+  })
 });
 
 
