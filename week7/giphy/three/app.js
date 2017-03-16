@@ -18,13 +18,6 @@ var render = function(response){
 	// 	-set the img src to the url
 	//	-append the img to the wrapper
 
-	for(var i=0; i < response.data.length; i++){
-		var url = response.data[i].images.fixed_height.url
-		console.log(url);
-	
-		$('.wrapper').append($('<img>').attr('src', url));
-	}
-	
 }
 
 

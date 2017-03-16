@@ -2,7 +2,6 @@
 $(document).ready(function() {
 	 
 	 //set an event listener to the go button
-	$('.go').click(search);	
 });
 
 //move the ajax call to its own function, called search
@@ -10,15 +9,14 @@ $(document).ready(function() {
 var search = function(){
 	
 	//grab the search term from the search text input 
-	var term = $('.search').val() //this is the search term	
-	console.log(term);
-	 //call the new search function with the term as a parameter
+	 
+  //call the new search function with the term as a parameter
 	 //hide the search box
 
 
 	//move the ajax call to its own function
 	 $.ajax({
-    	url: 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=dc6zaTOxFJmzC',
+    	url: 'http://api.giphy.com/v1/gifs/search?q=pizza&api_key=dc6zaTOxFJmzC',
     	method: 'GET'
     })
    	.done(render);

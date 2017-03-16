@@ -1,10 +1,10 @@
 # Week 7 - JS
 
 ## Objectives
-- I can understand when and how to use jQuery.
 - I can use an external api to retrieve data.
 
 ## Do Now
+-use a button to append an image, in the code folder
 
 ## Mini-Lesson: APIs and JSON
 ### API
@@ -151,8 +151,16 @@ var render = function(response){
 - show how you used the spotify api to do a search for the songs, then use that to add songs to the playlist
 - explain why this is a hacky solution, no server, no authorization, but it works nicely
 
-## Introduce Final Project
+## Play Time
+- Find an API
+- Use it to build something cool / small
+- Some more APIs
+  + [Yes/No](https://yesno.wtf/)
+  + [pokeAPI](https://pokeapi.co/)
+  + [Star Wars API](https://swapi.co/)
+  + [OMDB](http://www.omdbapi.com/)
+  + [NASA](https://data.nasa.gov/developer)
+  + [NYC OpenData](http://opendata.cityofnewyork.us/)
 
-### HW
-- Read about [Node.js](http://eloquentjavascript.net/20_node.html)
-- Read about [Express](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
+## Homework
+Keep hacking on your API app *OR* follow the OMDB assignment 
