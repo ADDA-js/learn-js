@@ -56,118 +56,122 @@ Javascript is nearly a universal language. It runs all sorts of devices and syst
   - go over conditional logic
   - go over writing to the page
 
-  Example
+  Example 1
   ```
-  var userName = prompt("What's your name?");
+  // store a variable
+  var name = 'adam';
+  var age = 32;
+  var coder = true;
 
-  var confirm = confirm('Do you like cats?');
+  // send info to the console
+  // for debugging
+  console.log(name);
+  // add html to the browser
+  document.write(name);
 
-  var petName = 'Jelly Cat';
-  var petType = 'Tabby cat';
-  var petAge = 1;
-  var petIsCat = true;
 
-  if (confirm){
-    alert(petName + petType + petAge)
-  }else{
-    alert("You don't get my cat's information")
-  }
+  var username = prompt('what is your name?');
 
-if (petIsCat == true){
-  alert('my pet is a cat')
-}else{
-  alert('my pet is not a cat')
-}
+  document.write('hello ' + username)
 
-if (petAge !== 7){
-  alert('My pet is not 7 years old')
-}
+  var question = confirm('Do you code?');
 
-if (petAge == 5){
-  alert('My pet is 5 years old')
-}elseif(petAge < 5){
-  alert('My pet is less than 5 years old')
-}elseif(petAge > 5){
-  alert('My pet is older than 5 years old')
-}
+  // do this to show the output of the confirm
+  document.write(question);
+  console.log(question);
 
-//this replaces the entire page with this - so it's not something you'll normally use - but it's what we'll use for now to be able to print stuff to the page
-document.write('Welcome to our page ' + userName);
+  //show slides for if statement
+  //add this
+  if(question) {
+    alert(username + " codes"
+        } else {
+        alert(username + " doesn't code yet"
 
-var catAge = prompt('how old is your cat?');
+            // example 2 bouncer
+            alert('can I see your id?');
+            var ageText = prompt('What is your age?')
+            //output the content, prompt people to see if there is anything strange?
 
-alert(catAge + 2); //won't work as expected
+            //parseInt changes text to a number.
+            var age = parseInt(ageText);
+            console.log(age);
 
-alert(parseInt(catAge) + 2); //works as expected
-```
+            if(age >= 21){
+            alert('Come on in!');
+            } else {
+            alert('Go away!')
+            }
+ ```
 
 #### EX1 - 20 minutes
-- use prompt to store the person's name
-- confirm that they are a member
-- if the uses is a member, ask them what movie should get best picture.
-- alert them of their vote.
-- if the user is not a member, alert them that they cannot vote.
+ - use prompt to store the person's name
+ - confirm that they are a member
+ - if the uses is a member, prompt them what movie should get best picture.
+ - alert them of their vote.
+ - if the user is not a member, alert them that they cannot vote.
 
-**Challenge**
-- If the user is not a member, see if they are elgible to apply.
-- Confirm they work in the film industry.
-- Confim they want to become a member
-- If they work in the film industry, and want to become a member, send them to the application page, https://www.oscars.org/about/join-academy
+ **Challenge**
+ - If the user is not a member, see if they are elgible to apply.
+ - Confirm they work in the film industry.
+ - Confirm they want to become a member
+ - If they work in the film industry, and want to become a member, send them to the application page, https://www.oscars.org/about/join-academy
 
 ## EX2 - 5 minutes
-Comparisons compare two things, give you an answer as a boolean value. Let's dig into some examples
-- share pen https://codepen.io/awdriggs/pen/ZLvQbr
-
+ Comparisons compare two things, give you an answer as a boolean value. Let's dig into some examples
+ - share pen https://codepen.io/awdriggs/pen/ZLvQbr
 ```javascript
 // discover exercise regarding strings, numbers and booleans, conditional logic
+/*
+if (true == true){
+  alert('hi')
+}else{
+  alert('bye')
+}
+*/
 
 /*
-   if (true == true){
-   alert('hi')
-   }else{
-   alert('bye')
-   }*/
-
-/*
-   if (false == false){
-   alert('dude')
-   }else{
-   alert('nope')
-   }*/
+if (false == false){
+  alert('dude')
+}else{
+  alert('nope')
+}*/
 
 /*if ("4" == 4){
   alert('barnard')
-  }else{
+}else{
   alert('marford - I made this up')
-  }*/
+}*/
 
 /*if ("4" === 4){
   alert('barnard')
-  }else{
+}else{
   alert('marford - I made this up')
-  }*/
+}*/
 
 /*if (true){
   alert('goo goo dolls')
-  }else{
+}else{
   alert('vanilla ice')
-  }*/
+}*/
 
 /*if (false){
   alert('the neighborhood')
-  }else{
+}else{
   alert('one direction')
-  }*/
+}*/
 
 /*if (("5" + "5") == "55"){
   alert('tofu')
-  }else{
+}else{
   alert('soybean')
-  }*/
+}*/
 
 /*if ((6 + "5") == "65"){
   alert('richard')
-  }else{
+}else{
   alert('branson')
-  }*/
+}*/
 ```
+
+### EX 3
+- Send out pen for calculator app

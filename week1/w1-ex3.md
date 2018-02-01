@@ -14,7 +14,7 @@ Your calculator should perform the following operations.
 - Divide
 
 ** Bonus **
-- Calculate the remainder when a number is divided
+- Calculate the remainder as a whole number when a number 1 is divided by number 2
 - Calculate an exponent, first number is base, second is power.
 
 ** Super Bonus **
