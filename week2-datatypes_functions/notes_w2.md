@@ -108,11 +108,12 @@ function checkSandwich() {
 ```
 
 ## while loops
-While loops will continue to happen as long a condition is true.
-
+- show slides with syntax and annotations
+- build simple countdown loop
+- While loops will continue to happen as long a condition is true.
 ```javascript
+ 
 var payingAttention = true;
-
 while(payingAttention){
   payingAttention = confirm('are you paying attention?');
 
