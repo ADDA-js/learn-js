@@ -1,4 +1,45 @@
+## Mini-Lesson 2
 
+### Objectives
+- I can add, update, and delete object from the page using my knowledge of the DOM.
+- I can implement event listeners to watch for user interaction.
+
+### Introduction to DOM
+- DOM, document *object* model
+- When a web page is loaded, the browser creates a document object model of the page.
+- This is simply a tree of objects, representing everything on the page.
+- Javascript can manipulate any part of the DOM, adding and removing at will.
+- Javascript can also add classes, ids and CSS attributes.
+
+### Some Jargon
+- We traverse the DOM Tree
+- We target DOM elements
+- We manipulate those elements
+- We listen for events
+- We handle events when they happen
+- DOM events are clicks, key presses, etc.
+
+### Targeting
+We must get an element before we can do anything to it. Many ways to accomplish this.
+- element by element id
+- Find elements by html tag name, returns array
+- Find elements by class name, returns array
+
+### Introduction to jQuery
+- jQuery is a Javascript library
+- Goal is to make DOM traversal, manipulation, and event handling easier.
+
+### when and how
+When you might need jQuery
+- For small projects where perfomance is not a big issue
+- Simple projects with a tight deadline
+- When you use a front-end library that has jQuery as a depedency.
+
+When you might not need jQuery
+- Acquiring an advanced understanding of JS
+- Working on complex web applications
+- Building you own library or framework
+-Server side applications with Node.js
 
 ## DOM Manipulation 
 ### Traversal and Manipulation

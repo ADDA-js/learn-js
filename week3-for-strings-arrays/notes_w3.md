@@ -233,6 +233,7 @@ animals[0] = 'lion'; //replaces a value in an array
 - ask the user (using prompt) for a band/artist, turn the user input lower case and then tell the user if you like the band too
 - hint: check to see if it is also in your array.
 
+*Ended here S18, moved the rest to w4*
 #### 2, 10 minutes we do
 ```javascript
 var breakfast = ['granola', 'yougurt', 'coffee'];
