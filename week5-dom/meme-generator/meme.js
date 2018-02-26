@@ -1,12 +1,13 @@
 console.log('working');
 // Level 1
 // Write a function called memeMe!
-// prompt the user for a setup line for the joke, 
-// then prompt them again for a punch line
+// get the text that is inside of the text box with a class of 'setup-input' and store in a var
+// get the text that is inside of the text box with a class of 'setup-input' and store in a var
 // target the paragraph with a class of 'start'
 // change the text to what the user inputed for a starting line
 // target the paragraph with a class of 'punch'
 // change the text to what the user inputed for punch line
+// clear the text box
 // * test this before moving on!
 
 // Level 2

@@ -12,7 +12,7 @@ $(document).ready(function(){
     //append the row to the wrapper
   
   //use implicit iteration to a click function to each of the boxes
-  //since boxes aren't being added dynamically, no need for a delegated event
+  //since boxes aren't being added dynamically, no need for a delegated event listener
  var rows = 10;
  var columns = 10;
   for(var i = 0; i < rows; i++){
