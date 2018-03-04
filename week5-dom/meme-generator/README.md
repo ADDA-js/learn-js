@@ -1,10 +1,17 @@
 # Meme Maker
 ![bad luck](badluckbrian.jpg)
+
 ## Directions
+### document ready?
++ Create a document.ready function, see last weeks example
++ create an event listener to watch for on a click on the generate button 
+  + hint: it has a class name!
+  + if the button is pressed, run a function called 'memeMe'
+
 ### memeMe
-+ Write a function called memeMe!
++ Write a function called memeMe outside of the document.ready function!
 + get the text that is inside of the text box with a class of 'setup-input' and store in a var
-+ get the text that is inside of the text box with a class of 'setup-input' and store in a var
++ get the text that is inside of the text box with a class of 'punch-input' and store in a var
 + target the paragraph with a class of 'start'
 + change the text to what the user inputed for a starting line
 + target the paragraph with a class of 'punch'
@@ -12,6 +19,7 @@
 + clear the text box
 + Test using the console.
 
+## Bonus 
 ### addLike
 + Write a function called addLike
 + target the text with a class of 'likes'
@@ -21,16 +29,10 @@
 + reset the value of likes on the screen to the new value;
 + Test using the console.
 
-### document ready?
-+ use jquery to append a h1 with a title to the wrapper
-+ create an event listener to watch for on a click on the generate button 
-  + hint: it has a class name!
-  + if the button is pressed, run the function memeMe
-
-+ create an event listener ot watch for a clikc on the 'like' button
++ create an event listener to watch for a click on the 'like' button
   + if the button is pressed, run the addLike function
 
-### BONUS!
+### New Meme!
 + Create a new button
 + If this button is pressed
   + clear the text
