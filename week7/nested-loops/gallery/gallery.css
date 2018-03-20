@@ -1,0 +1,15 @@
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+img{
+  width: 248px;
+  border: 1px dashed black;
+}
+
+.input-box{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
