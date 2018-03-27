@@ -9,6 +9,45 @@
 - Checkout the files in the 'Do Now' folder, use the 8ball api to make a app
 - Follow the directions in the comments.
 
+### Solution
+```
+$(document).ready(function() {
+  $('.ask').click(ask8ball);
+});
+
+var ask8ball = function() {
+  var question = $('.question').val();
+  $.ajax({
+      url: 'https://8ball.delegator.com/magic/JSON/' + question,
+      method: 'GET'
+    })
+    .done(render);
+
+}
+
+//render function, expects a 'response' parameter
+
+var render = function(response) {
+  var answer = response.magic.answer;
+  var question = response.magic.question;
+ 
+  var color = 'white';
+  
+  if(response.magic.type == 'Affirmative'){
+    color = 'Green';
+  } else if(response.magic.type == 'Contrary'){
+    color = 'Red';
+  }
+  
+  var questionUI = $('<h2>').text(question).css('color', color);
+  
+  var answerWrapper = $('<div>').addClass('answer');
+  answerWrapper.append('<p>' + answer + '</p>');
+  
+  $('.response-ui').prepend(questionUI, answerWrapper);
+}
+```
+
 ## Wordpress
 ### Introducing Wordpress
 - Skim the following links...
@@ -45,12 +84,13 @@
 - Walk through connect contact form 7 to the wp build a form.
 
 ## Wordpress REST API
-- What is REST, REpresentational State Transfer, show a few minutes of the video in slides.
+- What is REST, Representational State Transfer, show a few minutes of the video in slides.
 - The WordPress REST API provides API endpoints for WordPress data types that allow developers to interact with sites remotely by sending and receiving JSON (JavaScript Object Notation) objects.
   - An endpoint is simply a url in an API service
 - Why use the WP API? Create Single Page App (SPA)
 
 ### SPA Time!
+  - Show endpoints, `https://pizzatime-awdriggs.c9users.io/wp-json/wp/v2/posts?_embed`
   - From terminal, go to the folder where you are working
   - start server by running this command `python -m SimpleHTTPServer 8080`
   - now in chrome, type `http://localhost:8080/` in the url bar
