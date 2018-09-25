@@ -105,16 +105,11 @@ Javascript is nearly a universal language. It runs all sorts of devices and syst
 
 #### EX1 - 20 minutes
  - use prompt to store the person's name
- - confirm that they are a member
- - if the uses is a member, prompt them what movie should get best picture.
- - alert them of their vote.
- - if the user is not a member, alert them that they cannot vote.
-
- **Challenge**
- - If the user is not a member, see if they are elgible to apply.
- - Confirm they work in the film industry.
- - Confirm they want to become a member
- - If they work in the film industry, and want to become a member, send them to the application page, https://www.oscars.org/about/join-academy
+ - confirm that are 18 or older, if they are not 18, alert them that they can't vote.
+ - if so, ask them if they are registered to vote.
+ - if they are register alert a message "Make sure to vote on November 6"
+ - if they are NOT registered to alert a message "You have until October 12 to register"
+ - Bonus: if they are not registered to vote send them to the website to register. 
 
 ## EX2 - 5 minutes
  Comparisons compare two things, give you an answer as a boolean value. Let's dig into some examples
@@ -139,37 +134,37 @@ if (false == false){
 /*if ("4" == 4){
   alert('barnard')
 }else{
-  alert('marford - I made this up')
+  alert('columbia')
 }*/
 
 /*if ("4" === 4){
   alert('barnard')
 }else{
-  alert('marford - I made this up')
+  alert('columbia')
 }*/
 
 /*if (true){
-  alert('goo goo dolls')
+  alert('Beyonce')
 }else{
-  alert('vanilla ice')
+  alert('Solange')
 }*/
 
 /*if (false){
-  alert('the neighborhood')
+  alert('apple')
 }else{
-  alert('one direction')
+  alert('orange')
 }*/
 
-/*if (("5" + "5") == "55"){
+/*if ((5 + "5") == "55"){
   alert('tofu')
 }else{
   alert('soybean')
 }*/
 
-/*if ((6 + "5") == "65"){
-  alert('richard')
+/*if ("2" < "12"){
+  alert('coffee')
 }else{
-  alert('branson')
+  alert('tea')
 }*/
 ```
 
