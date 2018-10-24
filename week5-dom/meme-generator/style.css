@@ -1,0 +1,58 @@
+body{
+  background-image: url(http://rs123.pbsrc.com/albums/o285/jane_doe_102/BACKGROUND%20IMAGES/0s2d1f5sfd.gif~c200);
+  color: white;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 550px;
+  position: relative;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: DeepPink;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.image {
+  width: 520px;
+  height: 520px;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  -webkit-text-stroke: 2px black;
+  background-image: url(cat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+.start,
+.punch{
+  margin: 0;
+}
+
+.punch{
+  margin-top: 275px;
+}
+
+button{
+  font-size: 40px;
+  margin: 10px;
+  background-color: transparent;
+  border: solid 2px DeepPink; 
+  color: DeepPink;
+}
+
+button:hover {
+  /*this will happen when the cursor is on the button*/
+  background-color: DeepPink;
+  color: black;
+}
+
+span{
+  font-size: 40px;
+}
