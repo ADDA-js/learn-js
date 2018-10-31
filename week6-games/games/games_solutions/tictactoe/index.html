@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>TicTacToe</title>
+  <!-- stylesheet link -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <!-- your js files -->
+  <script type="text/javascript" src="game.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+  <header>
+    <div id="title">
+      <h1>TicTacToe</h1>
+    </div>
+    <button class="reset">reset</button>
+    <h2 id="turn">
+      <!-- this is where player and winner will be displayed -->
+    </h2>
+  </header>
+
+  <main id="board">
+    <!-- row a -->
+    <div>
+      <!-- &#8203 is just a blank text placeholder, i use it for styling purposes here -->
+      <div id="0-0" class="cell">&#8203</div>
+      <div id="0-1" class="cell">&#8203</div>
+      <div id="0-2" class="cell">&#8203</div>
+    </div>
+    <!-- row b -->
+    <div>
+      <div id="1-0" class="cell">&#8203</div>
+      <div id="1-1" class="cell">&#8203</div>
+      <div id="1-2" class="cell">&#8203</div>
+    </div>
+    <!-- row c -->
+    <div>
+      <div id="2-0" class="cell">&#8203</div>
+      <div id="2-1" class="cell">&#8203</div>
+      <div id="2-2" class="cell">&#8203</div>
+    </div>
+  </main>
+
+</body>
+
+</html>
