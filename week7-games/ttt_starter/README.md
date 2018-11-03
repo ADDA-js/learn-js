@@ -79,7 +79,7 @@ should call the play function with this clicked element as the parameter.
 + reset the clicks
 + reset all of the cells to be blank
 
-`$(document).ready`, fires whe the dom is ready...
+`window.onload`, fires whe the dom is ready...
 + use `game.buildBoard` to make the board
 + call `setClicks` to render all the clicks
 + add a click listener to the reset button, should call the reset function
