@@ -1,0 +1,43 @@
+body{
+	font-family: helvetica;
+	background-color: black;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.searchbox{
+	background-color: black;
+	width: 332px;
+	text-align: center;
+	float: left;
+}
+
+.searchbox img{
+	width: 200px;
+	margin: 10px;
+}
+
+input{
+	width: 200px;
+	height: 25px;
+}
+
+button{
+	display: block;
+	width: 100px;
+	background-color: #e6c02c;
+	border: 1px solid #e6c02c;
+	margin: 10px auto;
+}
+
+.result{
+	width: 600px;
+	background-color: #eee;
+	/*height: 400px;*/
+	margin-left: 10px;
+	float: left;
+	padding: 10px;
+}
