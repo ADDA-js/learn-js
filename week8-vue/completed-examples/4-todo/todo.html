@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Vue ToDo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="app" class="wrapper">
+    <h1>{{user}}'s Todo List</h1> 
+    <input type="text" v-model="newTodo">
+    <button v-on:click="add" v-if="newTodo">add</button>
+
+    <ol>
+      <li v-for="todo in todos" v-on:click="toggle($event, todo)" v-bind:class="{ 'done': todo.done}">{{todo.text}}</li>
+    </ol>
+
+    <pre>
+    {{$data}}
+    </pre>
+	</div>
+<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>

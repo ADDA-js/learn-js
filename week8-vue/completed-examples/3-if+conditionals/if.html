@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Vue if</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="app">
+    <button v-on:click="toggle">{{display? "hide":"show"}}</button>
+		<h1 v-if="display">{{message}}</h1>
+    <pre>{{ $data }}</pre>
+	</div>
+<script type="text/javascript" src="if.js"></script>
+</body>
+</html>

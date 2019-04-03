@@ -1,0 +1,62 @@
+
+body{
+	background-color: #222;
+	font-family: 'Muli', sans-serif; 
+	color: white;
+}
+
+.wrapper{
+	width: 900px;
+	min-height: 600px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+header{
+	border-bottom: 1px solid #666;
+	padding-bottom: 5px;
+}
+
+p{
+	color: #666;
+}
+
+h3{
+	margin: 0;
+}
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	border-bottom: 1px solid #666;
+}
+
+li:before {
+  content: "+ ";
+  font-size: 30px;
+  color: #666;
+  padding-left: 20px;
+}
+
+.now-playing{
+	color: #7FFF00;
+}
+
+li:hover{
+	background-color: #666;
+}
+
+
+li:hover:before{
+	color: white;
+}
+
+.played{
+	color: #666;
+}
+
+.played:hover{
+	color:white;
+}
