@@ -25,22 +25,6 @@ We must get an element before we can do anything to it. Many ways to accomplish 
 - Find elements by html tag name, returns array
 - Find elements by class name, returns array
 
-### Introduction to jQuery
-- jQuery is a Javascript library
-- Goal is to make DOM traversal, manipulation, and event handling easier.
-
-### when and how
-When you might need jQuery
-- For small projects where perfomance is not a big issue
-- Simple projects with a tight deadline
-- When you use a front-end library that has jQuery as a depedency.
-
-When you might not need jQuery
-- Acquiring an advanced understanding of JS
-- Working on complex web applications
-- Building you own library or framework
--Server side applications with Node.js
-
 ## DOM Manipulation
 ### Traversal and Manipulation
 ```javascript
